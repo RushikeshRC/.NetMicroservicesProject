@@ -4021,11 +4021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Udemy.NetMicroservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+      "projectUniqueName": "D:\\Udemy.NetMicroservice\\.NetMicroservicesProject\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
       "projectName": "Mango.Services.CouponAPI",
-      "projectPath": "D:\\Udemy.NetMicroservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+      "projectPath": "D:\\Udemy.NetMicroservice\\.NetMicroservicesProject\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
       "packagesPath": "C:\\Users\\rushikeshc\\.nuget\\packages\\",
-      "outputPath": "D:\\Udemy.NetMicroservice\\Mango\\Mango.Services.CouponAPI\\obj\\",
+      "outputPath": "D:\\Udemy.NetMicroservice\\.NetMicroservicesProject\\Mango\\Mango.Services.CouponAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rushikeshc\\AppData\\Roaming\\NuGet\\NuGet.Config",

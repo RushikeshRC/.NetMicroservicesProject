@@ -37,6 +37,31 @@
                             </ul>
                         </li>
                     </ul>
+                    <ul class="navbar-nav">
+                        @if (!User.Identity.IsAuthenticated) //we have user here that gets populated using Claims of Loggedin user
+                        {
+                            //note - we something need to set up to know that this user is logged in
+                            //so do that in auth controller so, when we login the login and register icons goes and only logout should be there
+
+                        <li class="nav-item">
+                            <a class="nav-link " asp-controller="Auth" asp-action="Login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " asp-controller="Auth" asp-action="Register">Register</a>
+                            </li>
+                        }
+                        else
+                        {
+                            //display user's email when he logged in
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Hello, @User.Identity.Name</a>
+                            </li>
+                            //if user is already  authenticated then only logout button
+                            <li class="nav-item">
+                                <a class="nav-link " asp-controller="Auth" asp-action="Logout">Logout</a>
+                            </li>
+                        }
+                    </ul>
                 </div>
             </div>
         </nav>

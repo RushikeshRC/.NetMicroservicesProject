@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KNvtEib/OHje/rZnp4quKWfjEiKgngT8SYZOBOGpThsqLJNAZZ/h0MwA5srel4dRNME+/oKhOfhzWmkY8AXoIA==",
+  "dgSpecHash": "Aqf+z+SA8Ce7kwXgGeEHObt7ajtVVRockGfLgRtz1wmSIhJ0FiwQsRWVMj14yzhQXp3tamgH+0DfBlFW2zGfpw==",
   "success": true,
-  "projectFilePath": "D:\\Udemy.NetMicroservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+  "projectFilePath": "D:\\Udemy.NetMicroservice\\.NetMicroservicesProject\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rushikeshc\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\rushikeshc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
