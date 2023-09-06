@@ -11,6 +11,6 @@ namespace Mango.Web.Service.IService
         //when we making any API call, in parameter we are passing RequestDto that we created
         //and we will get back the response back in ResponseDto
         //As we want this method async so Task
-        Task<ResponseDto?> SendAsync(RequestDto requestDto); 
+        Task<ResponseDto?> SendAsync(RequestDto requestDto,bool withBearer = true); 
     }
 }
