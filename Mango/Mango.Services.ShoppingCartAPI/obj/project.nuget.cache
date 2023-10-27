@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X0c7+dlHEz3+qDXB8Zy8fPZhYZuQmX35HhDhmPOyIdbQYFjOjKcufFlhNDhywW39xDqcWYlrSW+WPU7XVAZ/ZA==",
+  "dgSpecHash": "8gGLklqVDr0yMHq7TZBiLT4OvHrbVlDCIQQCS+Ib5JkFT+REDyVsLptclmaONeCHmGvIugEjyrVMHjlTrS69Pg==",
   "success": true,
   "projectFilePath": "D:\\Udemy.NetMicroservice\\.NetMicroservicesProject\\Mango\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
   "expectedPackageFiles": [
@@ -48,6 +48,7 @@
     "C:\\Users\\rushikeshc\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\rushikeshc\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\rushikeshc\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\rushikeshc\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\rushikeshc\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\rushikeshc\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\rushikeshc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

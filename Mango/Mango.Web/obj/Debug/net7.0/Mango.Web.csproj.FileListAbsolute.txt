@@ -39,7 +39,13 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\Mango.Web.runtimeconfig.json
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\Mango.Web.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\Mango.Web.pdb
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\IdentityModel.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.csproj.AssemblyReference.cache
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.GeneratedMSBuildEditorConfig.editorconfig
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.AssemblyInfoInputs.cache
@@ -64,8 +70,3 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\obj\Debug\net7
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.pdb
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.genruntimeconfig.cache
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\obj\Debug\net7.0\ref\Mango.Web.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

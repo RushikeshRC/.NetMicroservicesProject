@@ -10,7 +10,7 @@ namespace Mango.Services.ProductAPI.Controllers
 {
     [Route("api/product")]
     [ApiController]
-    //[Authorize]    //but since we have not defined the authentication in this API so define it 1st in program.cs
+    [Authorize]    //but since we have not defined the authentication in this API so define it 1st in program.cs
     public class ProductAPIController : ControllerBase
     {
         //In order to retireve the record from the DB we need EF Core 

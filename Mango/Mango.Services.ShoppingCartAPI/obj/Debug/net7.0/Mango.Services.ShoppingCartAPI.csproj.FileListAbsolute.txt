@@ -32,6 +32,7 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingC
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
