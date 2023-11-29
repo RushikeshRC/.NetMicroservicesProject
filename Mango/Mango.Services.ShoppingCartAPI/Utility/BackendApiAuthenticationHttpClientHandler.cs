@@ -3,6 +3,7 @@ using System.Net.Http.Headers;
 
 namespace Mango.Services.ShoppingCartAPI.Utility
 {
+    //to pass our bearer token to the other request, its baasically on client side
     public class BackendApiAuthenticationHttpClientHandler : DelegatingHandler
     {
         //to access the bearer token we need httpcontextaccessor here
