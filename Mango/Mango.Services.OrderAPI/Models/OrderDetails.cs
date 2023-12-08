@@ -12,7 +12,7 @@ namespace Mango.Services.OrderAPI.Models
         public int OrderHeaderId { get; set; }
 
         [ForeignKey("OrderHeaderId")]
-        public OrderHeader OrderHeader { get; set; }
+        public OrderHeader? OrderHeader { get; set; }
 
         public int ProductId { get; set; }
         

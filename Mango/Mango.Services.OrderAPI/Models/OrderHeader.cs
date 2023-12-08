@@ -20,7 +20,7 @@ namespace Mango.Services.OrderAPI.Models
         public string? Email { get; set; }
         public DateTime OrderTime { get; set; }
 
-        public string? Status { get; set; }
+        public string? Status { get; set; }     //can be pending, approved, pickedup, refunded, cancel
 
         public string? PaymentIntentId { get; set; }
 
