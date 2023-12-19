@@ -78,6 +78,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+//retrieve the value of secret key and assign that to the API key
+//another method to do it is GetValue in GetSection
+Stripe.StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();  
+
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

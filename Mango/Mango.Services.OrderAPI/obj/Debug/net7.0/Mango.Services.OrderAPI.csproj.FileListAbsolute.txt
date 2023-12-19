@@ -51,12 +51,7 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\obj\Debug\net7.0\Mango.Services.OrderAPI.csproj.AssemblyReference.cache
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\obj\Debug\net7.0\Mango.Services.OrderAPI.GeneratedMSBuildEditorConfig.editorconfig
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\obj\Debug\net7.0\Mango.Services.OrderAPI.AssemblyInfoInputs.cache
@@ -78,3 +73,9 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\obj\Debug\net7.0\Mango.Services.OrderAPI.pdb
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\obj\Debug\net7.0\Mango.Services.OrderAPI.genruntimeconfig.cache
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\obj\Debug\net7.0\ref\Mango.Services.OrderAPI.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\Stripe.net.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll

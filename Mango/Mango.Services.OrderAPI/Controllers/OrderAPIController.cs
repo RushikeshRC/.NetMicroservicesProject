@@ -7,6 +7,8 @@ using Mango.Services.ShoppingCartAPI.Service.IService;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Stripe;
+using Stripe.Checkout;
 
 namespace Mango.Services.OrderAPI.Controllers
 {
@@ -51,6 +53,60 @@ namespace Mango.Services.OrderAPI.Controllers
                 _response.Result = orderHeaderDto;
 
             }catch(Exception ex)
+            {
+                _response.IsSuccess = false;
+                _response.Message = ex.Message;
+            }
+            return _response;
+        }
+
+        [Authorize]
+        [HttpPost("CreateStripeSession")]
+        public async Task<ResponseDto> CreateStripeSession([FromBody] StripeRequestDto stripeRequestDto)
+        {
+            try
+            {
+                
+                var options = new SessionCreateOptions
+                {
+                    SuccessUrl = stripeRequestDto.ApprovedUrl,
+                    CancelUrl = stripeRequestDto.CancelUrl,
+                    //line items will be the items that we will display on checkout page
+                    LineItems = new List<SessionLineItemOptions>(),                       
+                    Mode = "payment",
+                };
+
+                //since it can be multiple items so
+                foreach(var item in stripeRequestDto.OrderHeader.OrderDetails)
+                {
+                    var sessionLineItem = new SessionLineItemOptions
+                    {
+                        PriceData = new SessionLineItemPriceDataOptions
+                        {
+                            UnitAmount = (long)(item.Price * 100),  //$20.99 -> 2099 in stripe
+                            Currency = "usd",
+                            ProductData = new SessionLineItemPriceDataProductDataOptions
+                            {
+                                Name = item.Product.Name
+                            }
+                        },
+                        //once we defined the qty here, it will automatically display the pricedata along with the grandtotal
+                        Quantity = item.Count
+                    };
+
+                    options.LineItems.Add(sessionLineItem);
+                }
+
+                var service = new SessionService();
+                Session session =  service.Create(options);  //this is the stripe session and it requires stripesessionid and url
+                stripeRequestDto.StripeSessionUrl = session.Url;
+
+                OrderHeader orderHeader = _db.OrderHeaders.First(u => u.OrderHeaderId == stripeRequestDto.OrderHeader.OrderHeaderId);
+                orderHeader.StripeSesionId = session.Id;
+                _db.SaveChanges();
+                _response.Result = stripeRequestDto;
+            }
+            catch(Exception ex)
             {
                 _response.IsSuccess = false;
                 _response.Message = ex.Message;

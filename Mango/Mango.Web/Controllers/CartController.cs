@@ -39,9 +39,10 @@ namespace Mango.Web.Controllers
 
             //reload the cart and send that to our API
             //populate the i/p fields that user added
-            cart.CartHeader.Name = cartDto.CartHeader.Name;
-            cart.CartHeader.Email = cartDto.CartHeader.Email;
             cart.CartHeader.Phone = cartDto.CartHeader.Phone;
+            cart.CartHeader.Email = cartDto.CartHeader.Email;
+            cart.CartHeader.Name = cartDto.CartHeader.Name;
+            
 
             //now call the orderservice
             var response = await _orderService.CreateOrder(cart); //make sure to pass cart and not the cartdto of parameter
@@ -50,9 +51,35 @@ namespace Mango.Web.Controllers
             if(response != null && response.IsSuccess)
             {
                 //get stripe session and redirect to stripe to place the order
+
+                //rather than hardcoding prop we can do
+                var domain = Request.Scheme + "://" + Request.Host.Value + "/";
+
+                StripeRequestDto stripeRequestDto = new()
+                {
+                    //properties
+                    ApprovedUrl = domain + "cart/Confirmation?orderId=" + orderHeaderDto.OrderHeaderId,  //url for stripe
+                    CancelUrl = domain + "cart/checkout",
+                    OrderHeader = orderHeaderDto
+                };
+
+                //call the API
+                var stripeResponse = await _orderService.CreateStripeSession(stripeRequestDto);
+
+                //now the response that we will get back from here in OrderAPI is striperequestDto in _response.Result so we need to Deserialize that
+                StripeRequestDto stripeResponseResult  = JsonConvert.DeserializeObject<StripeRequestDto>(Convert.ToString(stripeResponse.Result));
+
+                Response.Headers.Add("Location", stripeResponseResult.StripeSessionUrl);
+                return new StatusCodeResult(303);   //redirect to another page
             }
 
             return View();
+        }
+
+        
+        public async Task<IActionResult> Confirmation(int orderId)
+        {
+            return View(orderId);
         }
 
         public async Task<IActionResult> Remove(int cartDetailsId)

@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Udemy.NetMicroservice\\.NetMicroservicesProject\\Mango\\Mango.Web\\wwwroot\\images\\mango.png",
+      "PackagePath": "staticwebassets\\images\\mango.png"
+    },
+    {
+      "Id": "D:\\Udemy.NetMicroservice\\.NetMicroservicesProject\\Mango\\Mango.Web\\wwwroot\\images\\order.PNG",
+      "PackagePath": "staticwebassets\\images\\order.PNG"
+    },
+    {
       "Id": "D:\\Udemy.NetMicroservice\\.NetMicroservicesProject\\Mango\\Mango.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
