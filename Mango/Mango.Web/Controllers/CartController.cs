@@ -44,11 +44,14 @@ namespace Mango.Web.Controllers
             cart.CartHeader.Name = cartDto.CartHeader.Name;
             
 
-            //now call the orderservice
-            var response = await _orderService.CreateOrder(cart); //make sure to pass cart and not the cartdto of parameter
+            ////now call the orderservice
+            //var response = await _orderService.CreateOrder(cart); //make sure to pass cart and not the cartdto of parameter
+            //OrderHeaderDto orderHeaderDto = JsonConvert.DeserializeObject<OrderHeaderDto>(Convert.ToString(response.Result));
+            
+            var response = await _orderService.CreateOrder(cart);
             OrderHeaderDto orderHeaderDto = JsonConvert.DeserializeObject<OrderHeaderDto>(Convert.ToString(response.Result));
 
-            if(response != null && response.IsSuccess)
+            if (response != null && response.IsSuccess)
             {
                 //get stripe session and redirect to stripe to place the order
 
@@ -63,14 +66,22 @@ namespace Mango.Web.Controllers
                     OrderHeader = orderHeaderDto
                 };
 
-                //call the API
+                ////call the API
+                //var stripeResponse = await _orderService.CreateStripeSession(stripeRequestDto);
+
+                ////now the response that we will get back from here in OrderAPI is striperequestDto in _response.Result so we need to Deserialize that
+                //StripeRequestDto stripeResponseResult  = JsonConvert.DeserializeObject<StripeRequestDto>(Convert.ToString(stripeResponse.Result));
+
+                //Response.Headers.Add("Location", stripeResponseResult.StripeSessionUrl);
+                //return new StatusCodeResult(303);   //redirect to another page
+
                 var stripeResponse = await _orderService.CreateStripeSession(stripeRequestDto);
-
-                //now the response that we will get back from here in OrderAPI is striperequestDto in _response.Result so we need to Deserialize that
-                StripeRequestDto stripeResponseResult  = JsonConvert.DeserializeObject<StripeRequestDto>(Convert.ToString(stripeResponse.Result));
-
+                
+                StripeRequestDto stripeResponseResult = JsonConvert.DeserializeObject<StripeRequestDto>(Convert.ToString(stripeResponse.Result));
+                
                 Response.Headers.Add("Location", stripeResponseResult.StripeSessionUrl);
-                return new StatusCodeResult(303);   //redirect to another page
+                
+                return new StatusCodeResult(303);
             }
 
             return View();

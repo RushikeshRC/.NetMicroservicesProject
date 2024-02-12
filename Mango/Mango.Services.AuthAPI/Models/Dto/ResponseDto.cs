@@ -1,6 +1,6 @@
 ﻿namespace Mango.Services.AuthAPI.Models.Dto
 {
-    public class ResponseDto  //we need common response for every API for that purpose
+    public class ResponseDto  //we need common response for API for that purpose
     {
         public object? Result { get; set; }
 

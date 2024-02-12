@@ -98,11 +98,10 @@ namespace Mango.Services.OrderAPI.Controllers
                 }
 
                 var service = new SessionService();
-                Session session =  service.Create(options);  //this is the stripe session and it requires stripesessionid and url
+                Session session = service.Create(options);  //this is the stripe session and it requires stripesessionid and url
                 stripeRequestDto.StripeSessionUrl = session.Url;
-
                 OrderHeader orderHeader = _db.OrderHeaders.First(u => u.OrderHeaderId == stripeRequestDto.OrderHeader.OrderHeaderId);
-                orderHeader.StripeSesionId = session.Id;
+                orderHeader.StripeSessionId = session.Id;
                 _db.SaveChanges();
                 _response.Result = stripeRequestDto;
             }

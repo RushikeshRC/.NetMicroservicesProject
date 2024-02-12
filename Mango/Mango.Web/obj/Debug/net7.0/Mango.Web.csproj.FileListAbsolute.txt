@@ -70,3 +70,5 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\obj\Debug\net7
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.pdb
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.genruntimeconfig.cache
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\obj\Debug\net7.0\ref\Mango.Web.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\obj\Debug\net7.0\Mango.Web.sourcelink.json
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Web\bin\Debug\net7.0\AutoMapper.dll

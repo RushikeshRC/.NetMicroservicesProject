@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Aqf+z+SA8Ce7kwXgGeEHObt7ajtVVRockGfLgRtz1wmSIhJ0FiwQsRWVMj14yzhQXp3tamgH+0DfBlFW2zGfpw==",
+  "dgSpecHash": "M4jx8jw/ZQbol75TtM0IgAEmVSy2FzOOoARRIRyu6yUvsLshptjU/yjoa06iXIouvWZG82yeZhxKHlEI8XeAuQ==",
   "success": true,
   "projectFilePath": "D:\\Udemy.NetMicroservice\\.NetMicroservicesProject\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rushikeshc\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\rushikeshc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\rushikeshc\\.nuget\\packages\\automapper\\13.0.0\\automapper.13.0.0.nupkg.sha512",
     "C:\\Users\\rushikeshc\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\rushikeshc\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\rushikeshc\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

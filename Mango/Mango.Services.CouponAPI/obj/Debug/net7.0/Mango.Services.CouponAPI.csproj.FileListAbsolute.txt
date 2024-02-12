@@ -85,7 +85,6 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI\bin\Debug\net7.0\Mango.Services.CouponAPI.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI\bin\Debug\net7.0\Mango.Services.CouponAPI.pdb
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI\bin\Debug\net7.0\AutoMapper.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI\bin\Debug\net7.0\Azure.Core.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI\bin\Debug\net7.0\Azure.Identity.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI\bin\Debug\net7.0\Humanizer.dll
@@ -156,3 +155,4 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI\obj\Debug\net7.0\Mango.Services.CouponAPI.pdb
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI\obj\Debug\net7.0\Mango.Services.CouponAPI.genruntimeconfig.cache
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI\obj\Debug\net7.0\ref\Mango.Services.CouponAPI.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.CouponAPI\obj\Debug\net7.0\Mango.Services.CouponAPI.sourcelink.json

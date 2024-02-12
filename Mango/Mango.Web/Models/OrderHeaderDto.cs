@@ -21,7 +21,7 @@
 
         public string? PaymentIntentId { get; set; }
 
-        public string? StripeSesionId { get; set; }
+        public string? StripeSessionId { get; set; }
 
 
         public IEnumerable<OrderDetailsDto> OrderDetails { get; set; }

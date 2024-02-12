@@ -6,7 +6,6 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\Mango.Services.OrderAPI.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\Mango.Services.OrderAPI.pdb
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\AutoMapper.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\Azure.Core.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\Azure.Identity.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\Humanizer.dll
@@ -79,3 +78,4 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.OrderAPI\obj\Debug\net7.0\Mango.Services.OrderAPI.sourcelink.json

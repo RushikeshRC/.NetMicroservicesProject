@@ -6,7 +6,6 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\b
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Mango.Services.AuthAPI.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Mango.Services.AuthAPI.pdb
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\AutoMapper.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Azure.Core.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Azure.Identity.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\bin\Debug\net7.0\Humanizer.dll
@@ -83,3 +82,4 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\o
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\Mango.Services.AuthAPI.pdb
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\Mango.Services.AuthAPI.genruntimeconfig.cache
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\ref\Mango.Services.AuthAPI.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.AuthAPI\obj\Debug\net7.0\Mango.Services.AuthAPI.sourcelink.json

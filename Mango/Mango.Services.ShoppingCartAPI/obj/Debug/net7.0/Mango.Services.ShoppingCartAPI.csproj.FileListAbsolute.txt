@@ -6,7 +6,6 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingC
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Mango.Services.ShoppingCartAPI.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Mango.Services.ShoppingCartAPI.pdb
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\AutoMapper.dll
-D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Azure.Core.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Azure.Identity.dll
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Humanizer.dll
@@ -78,3 +77,4 @@ D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingC
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\Mango.Services.ShoppingCartAPI.pdb
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\Mango.Services.ShoppingCartAPI.genruntimeconfig.cache
 D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\ref\Mango.Services.ShoppingCartAPI.dll
+D:\Udemy.NetMicroservice\.NetMicroservicesProject\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\Mango.Services.ShoppingCartAPI.sourcelink.json
